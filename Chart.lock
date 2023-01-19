@@ -9,4 +9,4 @@ dependencies:
   repository: https://valsoft-aspire.github.io/grafana
   version: 6.50.0
 digest: sha256:85dc5a76181997e625f55d0c93dedb71c59dacaab5d419b83ac0899586d26e45
-generated: "2023-01-12T17:34:51.7036346+02:00"
+generated: "2023-01-19T02:13:00.7449211+02:00"

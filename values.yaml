@@ -756,6 +756,24 @@ grafana:
 
   adminPassword: prom-operator
 
+  grafana.ini:
+    log:
+      mode: console, file
+      level: error
+    alerting:
+      enabled: false
+    unified_alerting:
+      enabled: true
+    smtp:
+      enabled: true
+      from_address: ""
+      from_name: "Grafana"
+      host: ""
+      password: ""
+      user: ""
+    server:
+      root_url: ""
+
   rbac:
     ## If true, Grafana PSPs will be created
     ##
