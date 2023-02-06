@@ -2,10 +2,10 @@ apiVersion: v1
 entries:
   grafana:
   - apiVersion: v2
-    appVersion: 8.5.1
-    created: "2023-01-19T02:13:49.6620905+02:00"
+    appVersion: 8.5.2
+    created: "2023-02-06T10:38:14.9634193+02:00"
     description: The leading tool for querying and visualizing time series and metrics.
-    digest: bf90844c481e73bf1a2e67459301a8891742d5aca9c35511dc51c78d5ea12ace
+    digest: abeda17742d914acaf56cd08c2531e0784cfe2d55c32df8a1a9a245421db37c3
     home: https://grafana.net
     icon: https://raw.githubusercontent.com/grafana/grafana/master/public/img/logo_transparent_400x.png
     kubeVersion: ^1.8.0-0
@@ -38,7 +38,7 @@ entries:
       artifacthub.io/operator: "true"
     apiVersion: v2
     appVersion: 0.61.1
-    created: "2023-01-19T02:13:49.6591785+02:00"
+    created: "2023-02-06T10:38:14.9593465+02:00"
     dependencies:
     - condition: kubeStateMetrics.enabled
       name: kube-state-metrics
@@ -56,7 +56,7 @@ entries:
       and Prometheus rules combined with documentation and scripts to provide easy
       to operate end-to-end Kubernetes cluster monitoring with Prometheus using the
       Prometheus Operator.
-    digest: 42da7e628bb9d4a0bf8aacd75ea50c65ba492963e40f9fdd14e007f300f5d1fc
+    digest: 7158f964e967d16ced3df62ff1f35dc2c1c64c53668d6601a1827be0142c3d6a
     home: https://github.com/prometheus-operator/kube-prometheus
     icon: https://raw.githubusercontent.com/prometheus/prometheus.github.io/master/assets/prometheus_logo-cb55bb5c346.png
     keywords:
@@ -85,12 +85,12 @@ entries:
     - https://github.com/prometheus-operator/kube-prometheus
     type: application
     urls:
-    - kube-prometheus-stack-43.5.0.tgz
-    version: 43.5.0
+    - kube-prometheus-stack-43.6.0.tgz
+    version: 43.6.0
   kube-state-metrics:
   - apiVersion: v2
     appVersion: 2.7.0
-    created: "2023-01-19T02:13:49.66317+02:00"
+    created: "2023-02-06T10:38:14.9643693+02:00"
     description: Install kube-state-metrics to generate and expose cluster-level metrics
     digest: fbe4f512d9e96b025e33ba8d8acbc1281b6383f19f46b739cd865a4858f68715
     home: https://github.com/kubernetes/kube-state-metrics/
@@ -116,7 +116,7 @@ entries:
   prometheus-node-exporter:
   - apiVersion: v2
     appVersion: 1.5.0
-    created: "2023-01-19T02:13:49.6638882+02:00"
+    created: "2023-02-06T10:38:14.9653992+02:00"
     description: A Helm chart for prometheus node-exporter
     digest: 498bc3cdc587aa2b74a0f2a89d4ce08129cd6be1e2725acfd1206dabd90a5108
     home: https://github.com/prometheus/node_exporter/
@@ -136,4 +136,4 @@ entries:
     urls:
     - charts/prometheus-node-exporter-4.8.1.tgz
     version: 4.8.1
-generated: "2023-01-19T02:13:49.6387215+02:00"
+generated: "2023-02-06T10:38:14.9383912+02:00"
